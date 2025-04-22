@@ -19,6 +19,7 @@ export class FilterService {
     this.activatedRoute.queryParams.subscribe(
       ({ pokemon, sortBy, type, version }: QueryParamsInterface) => {
         this.filter = {
+          
           pokedexVersionId: version ? parseInt(version) : 1,
           pokemonName: pokemon || '',
           pokemonSortBy: sortBy || PokemonSortByEnum.NUMBER_ASC,

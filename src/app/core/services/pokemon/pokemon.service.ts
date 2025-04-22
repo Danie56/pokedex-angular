@@ -21,6 +21,7 @@ export class PokemonService {
 
   getAllPokemonsByLimit(limit: number): Observable<PokemonModel[]> {
     if (this.pokemons.length >= limit) {
+      console.log("hola")
       return of(this.pokemons.slice(0, limit));
     } else if (!this.fetchingPokemons) {
       this.fetchingPokemons = true;
