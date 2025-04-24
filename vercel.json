@@ -21,7 +21,7 @@
         },
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com/assets; script-src 'self' https://apis.google.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://beta.pokeapi.co;"
+          "value": "default-src 'self'; img-src 'self' data: https://raw.githubusercontent.com https://assets.pokemon.com https://pokeapi.co; script-src 'self' https://apis.google.com 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; connect-src 'self' https://beta.pokeapi.co;"
         },
         {
           "key": "Permissions-Policy",
