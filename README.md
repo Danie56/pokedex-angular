@@ -1,36 +1,52 @@
-# Pokédex Angular
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+# 🚀 Cómo iniciar sesión en Vercel
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+> Este paso a paso te guiará para iniciar sesión en la plataforma [Vercel](https://vercel.com), donde puedes desplegar tus proyectos web fácilmente.
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
+---
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
+## 🧭 Paso 1: Ir al sitio web
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
+Abre tu navegador y visita 👉 [**https://vercel.com**](https://vercel.com)
 
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
+---
 
-## Requisitos mínimos
+## 🔐 Paso 2: Haz clic en el botón **"Login"**
 
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
+- Lo encontrarás en la parte superior derecha de la pantalla.
+- También puede aparecer como `Sign in`.
 
-## Ambiente de pruebas
+---
 
-Ejecutar en la raíz del proyecto:
+## 👤 Paso 3: Elige un método de autenticación
 
-```
-npm start
-```
+Vercel te permite loguearte usando varios servicios:
 
-## Referencias
+- 🔵 **GitHub**
+- 🟣 **GitLab**
+- 🟠 **Bitbucket**
+- 📧 También puedes usar tu **correo electrónico**
 
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+> ⚠️ Se recomienda usar GitHub para una integración más sencilla con tus repositorios.
+
+---
+
+## ✉️ Paso 4: Confirma tu identidad
+
+- Si elegiste una red social (como GitHub), autoriza a Vercel a acceder a tu cuenta.
+- Si elegiste email:
+  1. Vercel enviará un correo con un enlace mágico (`magic link`).
+  2. Haz clic en ese enlace para iniciar sesión.
+
+---
+
+## ✅ Paso 5: ¡Listo!
+
+Serás redirigido al **dashboard** de Vercel, donde podrás crear y administrar tus proyectos.
+
+---
+
+## 💡 Tips adicionales
+
+- Si es la **primera vez** que inicias sesión, Vercel te pedirá crear un **team** o unirte a uno.
+- Asegúrate de tener tu cuenta de GitHub conectada si vas a desplegar desde un repositorio.
